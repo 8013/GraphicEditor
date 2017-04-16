@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Shapes">
+      <UniqueIdentifier>{5c2e035f-680a-400e-80a5-e438b65fad26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Shapes">
+      <UniqueIdentifier>{9a45ce9a-1b33-4ba4-b2a1-5e11e388adf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MFC">
+      <UniqueIdentifier>{af477e88-938f-4658-bae4-a56e93beb9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MFC">
+      <UniqueIdentifier>{48f4d532-d88a-4ba8-9bbf-7fefbed32909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Tools">
+      <UniqueIdentifier>{1d5a8589-5fff-4684-b26d-4e596f6758c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tools">
+      <UniqueIdentifier>{c7293a0a-f0c6-476d-892b-ebc17a10ce7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shape.h">
+      <Filter>头文件\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="StraightLine.h">
+      <Filter>头文件\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicEditor.h">
+      <Filter>头文件\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicEditorDoc.h">
+      <Filter>头文件\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicEditorView.h">
+      <Filter>头文件\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>头文件\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>头文件\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Ellipse.h">
+      <Filter>头文件\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>头文件\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve.h">
+      <Filter>头文件\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="CutLine.h">
+      <Filter>头文件\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>头文件\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="TrimWindow.h">
+      <Filter>头文件\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Test3D.h">
+      <Filter>头文件\Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StraightLine.cpp">
+      <Filter>源文件\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicEditor.cpp">
+      <Filter>源文件\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicEditorDoc.cpp">
+      <Filter>源文件\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicEditorView.cpp">
+      <Filter>源文件\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>源文件\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>源文件\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>源文件\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Ellipse.cpp">
+      <Filter>源文件\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>源文件\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve.cpp">
+      <Filter>源文件\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="CutLine.cpp">
+      <Filter>源文件\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="TrimWindow.cpp">
+      <Filter>源文件\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Test3D.cpp">
+      <Filter>源文件\Tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GraphicEditor.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GraphicEditor.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\GraphicEditorDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\GraphicEditor.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

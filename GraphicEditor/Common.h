@@ -1,0 +1,11 @@
+#pragma once
+#include "Shape.h"
+#include "StraightLine.h"
+#include "Rectangle.h"
+#include "Circle.h"
+#include "Ellipse.h"
+#include "Polygon.h"
+#include "Curve.h"
+#include "CutLine.h"
+#include "TrimWindow.h"
+#include "Test3D.h"
